@@ -1,0 +1,23 @@
+body{
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 30px;
+}
+
+.white{
+    color: white;
+}
+
+#p1{
+    background-color: chocolate;
+}
+
+#p2{
+    background-color: cornflowerblue;
+}
