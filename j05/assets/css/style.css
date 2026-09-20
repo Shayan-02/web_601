@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.par{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#par1{
+    background-color: cornflowerblue;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+#par2{
+    background-color: crimson;
+    margin-right: 300px;
+    margin-top: 20px;
+    padding-left: 100px;
+}

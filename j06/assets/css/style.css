@@ -1,0 +1,17 @@
+@font-face {
+    font-family: nazanin;
+    src: url(./../fonts/IranNastaliq.ttf);
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf);
+}
+
+*{
+    direction: rtl;
+    text-decoration: none;
+    /* font-family: nazanin; */
+    font-family: vazir;
+}
+
