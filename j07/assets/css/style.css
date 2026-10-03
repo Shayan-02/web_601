@@ -1,0 +1,18 @@
+*{
+    direction: rtl;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav .top-bar{
+    height: 70px;
+    background-color: rgba(137, 43, 226, 0.267) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .top-bar a{
+    margin-right: 10px;
+}

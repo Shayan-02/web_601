@@ -1,0 +1,19 @@
+@font-face {
+    font-family: iran;
+    src: url(./../fonts/IRSANS\ .TTF);
+}
+
+
+*{
+    text-decoration: none;
+    direction : rtl;
+    font-family: iran;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
