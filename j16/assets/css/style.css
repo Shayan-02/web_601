@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    inset: 0;
+    background-color: white;
+}
+
+nav #super-menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav .sub-menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0 10px 10px;
+
+}
+
+nav .sub-menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav #super-menu #item:hover .sub-menu{
+    display: flex;
+}
+
+main{
+    margin-top: 80px;
+}
