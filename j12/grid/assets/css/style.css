@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+.box{
+    background-color: cornflowerblue;
+    column-count: 3;
+    column-rule: 5px black solid;
+    column-gap: 70px;
+    column-width: 300px;
+}
+
+p{
+    background-color: coral;
+}

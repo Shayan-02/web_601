@@ -1,0 +1,24 @@
+:root{
+    --primary-color: #e29bf8;
+    --width-size: 70vw;
+    --text-primary-size: 1.5rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+h1, h2{
+    background-color: var(--primary-color);
+    width: var(--width-size);
+}
+
+p{
+    color: var(--primary-color);
+    font-size: var(--text-primary-size);
+}
