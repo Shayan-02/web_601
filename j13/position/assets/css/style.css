@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    height: 50px;
+}
+
+.first{
+    background-color: cornflowerblue;
+}
+
+.second{
+    background-color: crimson;
+    /* margin-left: 130px; */
+    position: relative;
+    left: 130px;
+    right: 200px;
+    /* top: 50px;
+    bottom: 500px; */
+}
+
+/* .btn{
+    position: relative;
+} */
+
+a{
+    padding: 10px 15px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    /* position: absolute; */
+    position: fixed;
+    z-index: 10;
+    bottom: 30px;
+    left: 30px;
+}
+
+.fa-angle-up{
+    color: black;
+}

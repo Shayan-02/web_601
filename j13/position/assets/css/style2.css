@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.page {
+    height: 100vh;
+    background-size: cover;
+}
+
+#page-1 {
+    /* background-color: darkseagreen; */
+    background-image: url(./../images/1.jpg);
+}
+
+#page-2 {
+    /* background-color: palevioletred; */
+    background-image: url(./../images/2.jpg);
+}
+
+#page-3 {
+    background-color: rgba(144, 241, 253, 0.699);
+    background-image: url(./../images/3.jpg);
+}
+
+nav{
+    position: fixed;
+    top: 50%;
+    z-index: 10;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-evenly;
+    width: 100px;
+    background-color: burlywood;
+}
