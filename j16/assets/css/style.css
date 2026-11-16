@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #33CC66;
+    --orange-color: #fd7745;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+
+header .container {
+    width: 70vw;
+}
+
+header .w-100{
+    width: 100vw !important;
+}
+
+header .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .top .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .top .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .top .right .social {
+    font-size: 20px;
+    color: #fff;
+}
+
+header .top .right .social:hover {
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
